@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.4.0](https://github.com/Squads-Protocol/squads-mpl/compare/v1.3.0...v1.4.0) (2024-06-19)
+
+
+### Features
+
+* **global:** Update idl && sdk ([def125e](https://github.com/Squads-Protocol/squads-mpl/commit/def125e25472465190206f09c5e204b5e0a1a2e3))
+* **security-txt:** Update hash ([eeed626](https://github.com/Squads-Protocol/squads-mpl/commit/eeed6268efb38a07e20364d8741ba6c20e1c02a3))
+
+
+### Bug Fixes
+
+* **sdk-version:** version bump sdk ([c95b767](https://github.com/Squads-Protocol/squads-mpl/commit/c95b7673d616c377a349ca424261872dfcf8b19d))
+* **sdk:** added lamports check method for realloc ([abed3a6](https://github.com/Squads-Protocol/squads-mpl/commit/abed3a63eaa1dee57dab5e146850bf3b0d362428))
+* **sdk:** export wallet and types ([5f4d77a](https://github.com/Squads-Protocol/squads-mpl/commit/5f4d77a812cb22783fe3c2eabc4cb4befbe2879c))
+
 ## [1.3.0](https://github.com/Squads-Protocol/squads-mpl/compare/v1.2.0...v1.3.0) (2023-02-13)
 
 ### Features
