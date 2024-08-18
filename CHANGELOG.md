@@ -130,7 +130,7 @@
 
 * **execution:** Update execution process for add_member ([f0165c1](https://github.com/squads-dapp/squads-mpl/commit/f0165c17a8fbf6e5cbe60f72fd55f6d17565ed5a))
 * **update:** added constraint for previously executed upgrades ([79b6e9e](https://github.com/squads-dapp/squads-mpl/commit/79b6e9e6f78f12f14d782da864c8ab6d5c043405))
-* **update:** context contraints updated ([98c5ab4](https://github.com/squads-dapp/squads-mpl/commit/98c5ab435ac94535b9b38b95b95f2a7aae427a38))
+* **update:** context constraints updated ([98c5ab4](https://github.com/squads-dapp/squads-mpl/commit/98c5ab435ac94535b9b38b95b95f2a7aae427a38))
 
 ## [1.0.2](https://github.com/squads-dapp/squads-mpl/compare/v1.0.1...v1.0.2) (2022-07-29)
 
