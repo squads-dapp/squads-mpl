@@ -10,7 +10,7 @@ The program facilitates signing and executing transactions on behalf of a multis
   * [Authorities](#authorities)
 * [Create a Multisig](#create-a-multisig)
 * [Create a MsTransaction](#create-a-mstransaction)
-  * [Initializing MsTransaction](#initializing-a-mstransaction)
+  * [Initializing a MsTransaction](#initializing-a-mstransaction)
   * [Attaching MsInstructions to a MsTransaction](#attaching-msinstructions-to-a-mstransaction)
   * [Activating a MsTransaction](#activating-a-mstransaction)
 * [Approve or Reject a MsTransaction](#approve-or-reject-a-mstransaction)
