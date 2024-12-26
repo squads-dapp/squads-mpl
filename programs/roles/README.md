@@ -11,9 +11,9 @@ The Roles Program allows certain member keys to be derived that can only perform
 5. Initiate & Vote
    
 ### Invoking the Program
-The Roles Program acts a proxy on behalf of a origin key and the Squads Program - invocations first pass through the Roles Program to determine if they should be passed on to the Squads Multisig Program. If the assigned roles do not match what the origin key is trying to invoke, the the action will be rejected. The origin key is the base key which the roles and delegate keys are derived from. In the following example, we will use an origin key that is a users wallet.\
+The Roles Program acts as a proxy on behalf of an origin key and the Squads Program - invocations first pass through the Roles Program to determine if they should be passed on to the Squads Multisig Program. If the assigned roles do not match what the origin key is trying to invoke, the action will be rejected. The origin key is the base key which the roles and delegate keys are derived from. In the following example, we will use an origin key that is a users wallet.\
 Use Case:
-1. We want to create a role for this users wallet.
+1. We want to create a role for this user's wallet.
 2. The user should only be allowed to initiate/propose transactions.
 3. The user should not be allowed to vote or execute.
 
