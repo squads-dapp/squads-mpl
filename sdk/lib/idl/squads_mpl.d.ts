@@ -49,7 +49,7 @@ export declare type SquadsMpl = {
             "name": "addMember";
             "docs": [
                 "The instruction to add a new member to the multisig.",
-                "Adds member/key to the multisig and reallocates space if neccessary",
+                "Adds member/key to the multisig and reallocates space if necessary",
                 "If the multisig needs to be reallocated, it must be prefunded with",
                 "enough lamports to cover the new size."
             ];
@@ -351,8 +351,8 @@ export declare type SquadsMpl = {
             "docs": [
                 "Instruction to cancel a transaction.",
                 "Transactions must be in the \"executeReady\" status.",
-                "Transaction will only be cancelled if the number of",
-                "cancellations reaches the threshold. A cancelled",
+                "Transaction will only be canceled if the number of",
+                "cancellations reaches the threshold. A canceled ",
                 "transaction will no longer be able to be executed."
             ];
             "accounts": [
@@ -418,7 +418,7 @@ export declare type SquadsMpl = {
             "docs": [
                 "Instruction to sequentially execute attached instructions.",
                 "Instructions executed in this matter must be executed in order,",
-                "this may be helpful for processing large batch transfers.",
+                "this may help process large batch transfers.",
                 "This instruction can only be used for transactions with an authority",
                 "index of 1 or greater.",
                 "",
@@ -572,7 +572,7 @@ export declare type SquadsMpl = {
             "name": "msInstruction";
             "docs": [
                 "The state account for an instruction that is attached to a transaction.",
-                "Almost analagous to the native Instruction struct for solana, but with an extra",
+                "Almost analogous to the native Instruction struct for solana, but with an extra",
                 "field for the bump."
             ];
             "type": {
