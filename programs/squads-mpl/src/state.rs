@@ -260,7 +260,7 @@ impl MsTransaction {
 }
 
 /// The state account for an instruction that is attached to a transaction.
-/// Almost analagous to the native Instruction struct for solana, but with an extra
+/// Almost analogous to the native Instruction struct for solana, but with an extra
 /// field for the bump.
 #[account]
 pub struct MsInstruction {
