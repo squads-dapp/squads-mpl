@@ -84,7 +84,7 @@ pub mod squads_mpl {
     }
 
     /// The instruction to add a new member to the multisig.
-    /// Adds member/key to the multisig and reallocates space if neccessary
+    /// Adds member/key to the multisig and reallocates space if necessary
     /// If the multisig needs to be reallocated, it must be prefunded with
     /// enough lamports to cover the new size.
     pub fn add_member(ctx: Context<MsAuthRealloc>, new_member: Pubkey) -> Result<()> {

@@ -49,7 +49,7 @@ export declare type SquadsMpl = {
             "name": "addMember";
             "docs": [
                 "The instruction to add a new member to the multisig.",
-                "Adds member/key to the multisig and reallocates space if neccessary",
+                "Adds member/key to the multisig and reallocates space if necessary",
                 "If the multisig needs to be reallocated, it must be prefunded with",
                 "enough lamports to cover the new size."
             ];
@@ -572,7 +572,7 @@ export declare type SquadsMpl = {
             "name": "msInstruction";
             "docs": [
                 "The state account for an instruction that is attached to a transaction.",
-                "Almost analagous to the native Instruction struct for solana, but with an extra",
+                "Almost analogous to the native Instruction struct for solana, but with an extra",
                 "field for the bump."
             ];
             "type": {
